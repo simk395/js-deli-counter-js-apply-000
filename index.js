@@ -1,4 +1,5 @@
 function takeANumber(line, name){
+<<<<<<< HEAD
   line.push(name);
   return "Welcome, "+ name +". You are number " + line.length +" in line.";
 }
@@ -28,4 +29,7 @@ function currentLine(line){
 
   }
 
+=======
+  return "Welcome, " + name + ". You are number "+ (line.length + 1)  + " in line.";
+>>>>>>> fcdcc4bb030c43aac668396c9209ddbb37b0466a
 }
